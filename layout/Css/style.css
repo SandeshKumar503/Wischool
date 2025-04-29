@@ -20,7 +20,6 @@
 }
 
 .margin {
-
   border: none;
   padding-top: 0px;
   margin-top: 0px;
@@ -85,5 +84,45 @@ h2 {
   line-height: 80px;
 }
 
+.bx {
+  width: 1227px;
+  height: 60px;
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+}
+
 .box1 {
+  background-color: #ddffff;
+  width: 220;
+  height: 60;
+  border-radius: 5px;
+}
+
+.box2 {
+  background-color: #ddffff;
+  width: 220;
+  height: 60;
+  border-radius: 5px;
+}
+
+.box3 {
+  background-color: #ddffff;
+  width: 220;
+  height: 60;
+  border-radius: 5px;
+}
+
+.box4 {
+  background-color: #ddffff;
+  width: 220;
+  height: 60;
+  border-radius: 5px;
+}
+
+.box5 {
+  background-color: #ddffff;
+  width: 220;
+  height: 60;
+  border-radius: 5px;
 }
