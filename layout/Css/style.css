@@ -65,6 +65,21 @@ link{
   border-radius: 40px;
 }
 
+.fix{
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.ft{
+  justify-content: space-between;
+  align-content: center;
+}
+
+.fir{
+  background-color: #fff;
+
+}
+
 span {
   color: #09b451;
 }
