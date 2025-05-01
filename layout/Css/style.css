@@ -4,127 +4,191 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fff;
-  color: #222;
-}
-
-.container {
-  justify-content: center;
-  align-items: center;
   margin-left: 60px;
   margin-right: 60px;
+  font-family: "Arial", sans-serif;
+  background-color: #fff;
+  color: #333;
 }
 
-.navi{
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.anchor {
-  font-weight: 700;
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
 }
 
-link{
-  display: flex;
+.navbar nav ul {
   list-style: none;
-}
-
-.margin {
-  border: none;
-  padding-top: 0px;
-  margin-top: 0px;
-}
-
-.link a{
-  text-decoration: none;
-  color: #000000;
-  font-weight: 500;
-}
-
-.text {
-  color: #09b451;
-  font-weight: 500;
-  text-decoration: none;
-  padding: 5px 10px;
-}
-
-
-.back {
-  background-color: #09b451;
-  font-weight: 500;
-}
-
-.Frame{
   display: flex;
-  padding: 40px 50px;
-  justify-content: center;
-  background-color: rgba(0, 128, 0, 0.062);
-  border-radius: 40px;
+  gap: 20px;
 }
 
-.fix{
-  background-color: #fff;
-  margin-bottom: 20px;
+.navbar nav ul li a {
+  text-decoration: none;
+  color: #333;
 }
 
-.ft{
+.nav-icons input {
+  padding: 5px;
+}
+
+.login,
+.register {
+  margin-left: 10px;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.register {
+  background: #00c897;
+  color: #fff;
+}
+
+.hero {
+  display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
+  padding: 50px;
+  background: #f5faff;
 }
 
-.fir{
-  background-color: #fff;
-
+.hero-text h1 {
+  font-size: 36px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
 span {
-  color: #09b451;
+  color: #00c897;
 }
 
-.bt {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 40px;
-  padding-right: 40px;
+.cta {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #00c897;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
 
-.qua {
-  margin-top: 50px;
-  padding-top: 20px;
+.features {
+  margin-top: 20px;
 }
 
-.btn2 {
-  position: absolute;
+.features span {
+  background: #e0f7f4;
+  padding: 5px 10px;
+  border-radius: 12px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.hero-image {
+  position: relative;
+}
+
+.hero-image img {
+  width: 300px;
+  border-radius: 20px;
 }
 
 .im {
-  padding-left: 100px;
-  padding-top: 50px;
+  border-radius: 10px;
+  border-width: 3px;
+  position: absolute;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.pdr {
-  padding-right: 20px;
+.instructors-badge,
+.badge {
+  position: absolute;
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
 }
 
-h2 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 80px;
+.instructors-badge {
+  top: 10px;
+  left: -100px;
+}
+
+.badge {
+  bottom: 10px;
+  right: -50px;
+  color: black;
 }
 
 .bx {
   display: flex;
-  justify-content: space-between;
   padding: 20px 20px;
   background-color: #ffffff;
 }
 
-.box{
+.box {
+  justify-content: space-between;
   background-color: #ddffff;
   border-radius: 5px;
   padding: 10px 20px;
 }
 
+.content {
+  /* padding: 40px 50px; */
+  position: absolute;
+  background: #fff;
+}
+
+.content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  justify-content: space-between;
+  background: #f5f5f5;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  width: 200px;
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card .cards {
+  justify-content: space-between;
+}
+
+.card img {
+  justify-content: space-between;
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  height: 300px;
+}
+
+.card p {
+  padding: 10px;
+  font-weight: bold;
+}
