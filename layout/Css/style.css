@@ -45,6 +45,8 @@ body {
   text-decoration: none;
   padding: 6px 12px;
   border-radius: 4px;
+  color: #048857;
+  font-weight: 600;
 }
 
 .register {
@@ -63,13 +65,11 @@ body {
 }
 
 .hero-text h1 {
-  font-weight: 600;
+  font-weight: bold;
   font-size: 50px;
-  line-height: 100%;
+  line-height: 70px;
   letter-spacing: 0%;
-  
 }
-
 
 span {
   color: #00c897;
@@ -97,11 +97,15 @@ span {
 }
 
 .hero-image {
-  position: relative;
+  top: 9px;
+  left: 170px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 40px;
 }
 
 .hero-image img {
-  width: 300px;
   border-radius: 20px;
 }
 
@@ -124,58 +128,70 @@ span {
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   font-size: 14px;
+  font-weight: 400;
 }
 
 .instructors-badge {
-  top: 10px;
+  border-bottom-right-radius: 20px;
+  top: 300px;
   left: -100px;
+  line-height: 20px;
 }
 
 .badge {
+  align-items: center;
   bottom: 10px;
   right: -50px;
   color: black;
 }
 
-.para{
+.ft {
+  position: relative;
+  width: 50;
+  height: 50;
+  border-radius: 30px;
+  border-width: 6px;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.para {
   width: 30;
   height: 30;
   top: 15px;
   left: 49px;
   border-radius: 30px;
-  
 }
-
 
 .bx {
   display: flex;
-  padding: 20px 20px;
+  justify-content: space-between;
+  padding: 30px 50px;
   background-color: #ffffff;
+  border-top: 1px solid #eee;
 }
 
 .box {
-  justify-content: space-between;
-  background-color: #ddffff;
-  border-radius: 5px;
+  background: #e7f8f0;
   padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  color: #048857;
+  gap: 48px;
+  align-items: center;
 }
 
 .content {
-  position: absolute;
   background: #fff;
   margin: 0%;
-
-  
+  flex-wrap: wrap;
 }
 
-
-.live{
+.live {
   font-weight: 200;
   display: flex;
   justify-content: space-between;
-
 }
-
 
 .content h2 {
   font-size: 24px;
