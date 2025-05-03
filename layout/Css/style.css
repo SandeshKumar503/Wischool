@@ -108,9 +108,9 @@ span {
   border-bottom-left-radius: 40px;
 }
 
-.student{
+.student {
   height: 350px;
-  width: 300px; 
+  width: 300px;
 }
 
 .hero-image img {
@@ -144,34 +144,37 @@ span {
   height: 140px;
   width: 190px;
   border-bottom-right-radius: 20px;
-  top: 350px;
-  left: 720px;
+  top: 260px;
+  left: 820px;
   line-height: 20px;
   font-weight: 700;
 }
 
-.instructors-badge p{
-margin: 0;
-font-size: 14px;
-color: #2c3e50;
+.instructors-badge p {
+  margin: 0;
+  font-size: 14px;
+  color: #2c3e50;
 }
 
 .badge {
   align-items: center;
   height: 100px;
   width: 110px;
+  top: 350px;
+  left: 1130px;
   font-weight: 600;
   bottom: 10px;
   right: 65px;
   color: black;
 }
 
-.ft{
+
+.ft {
   margin-top: 10px;
   display: flex;
 }
 
-.ft img{
+.ft img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -193,21 +196,22 @@ color: #2c3e50;
   padding: 30px 50px;
   background-color: #ffffff;
   border-top: 1px solid #eee;
+  flex-wrap: wrap;
 }
 
 .box {
   background: #e7f8f0;
   padding: 10px 20px;
-  border-radius: 25px;
   font-weight: 500;
   color: #048857;
   gap: 48px;
   align-items: center;
+  margin-bottom: 20px;
+  
 }
 
 .content {
   background: #fff;
-  margin: 0%;
   flex-wrap: wrap;
 }
 
@@ -218,6 +222,7 @@ color: #2c3e50;
 }
 
 .content h2 {
+  display: flex;
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -251,18 +256,17 @@ color: #2c3e50;
   font-weight: bold;
 }
 
+@media only screen and (max-width: 1024px) {
+  .instructors-badge {
+    top: 270px;
+    left: 500px;
+  }
 
-
-  @media only screen and (max-width: 1024px) {
-    .instructors-badge {
-      top: 350px;
-      left: 500px;
-    }
-    
-    }
-
+  .badge {
+    top: 350px;
+    left: 820px;
+  }
+}
 
 @media only screen and (max-width: 768px) {
-  
-  
-  }
+}
