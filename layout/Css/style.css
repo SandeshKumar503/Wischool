@@ -3,10 +3,10 @@
   padding: 0px;
 }
 
-body {
+.container-fluid {
   margin-top: 10px;
-  margin-left: 0.5%;
-  margin-right: 0.5%;
+  margin-left: 80px;
+  margin-right: 80px;
   font-family: "Arial";
   background-color: #fff;
   color: #333;
@@ -53,7 +53,7 @@ body {
 
 .register {
   padding: 10px 15px;
-  background: #00c897;
+  background: #09b451;
   color: #fff;
 }
 
@@ -161,7 +161,7 @@ span {
   height: 100px;
   top: 350px;
   left: 1130px;
-  font-weight: 600;
+  font-weight: 500;
   bottom: 10px;
   right: 65px;
   color: black;
@@ -195,16 +195,20 @@ span {
   background-color: #ffffff;
   border-top: 1px solid #eee;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .box {
-  background: #e7f8f0;
-  padding: 10px 20px;
-  font-weight: 500;
-  color: #048857;
-  gap: 48px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+}
+
+.mr {
+  padding-top: 20px;
+  padding-left: 10px;
 }
 
 .content {
@@ -215,6 +219,8 @@ span {
 }
 
 .live {
+  padding-top: 50px;
+  padding-bottom: 20px;
   font-weight: 200;
   display: flex;
   justify-content: space-between;
@@ -222,13 +228,35 @@ span {
 
 .content h2 {
   display: flex;
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.car {
+  padding-top: 20px;
+}
+
+.cav {
+  display: flex;
+  font-weight: 200;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bacf {
+  border-style: none;
 }
 
 .cards {
   display: flex;
-  gap: 20px;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.space {
+  display: flex;
+  flex: auto;
 }
 
 .card {
@@ -255,21 +283,28 @@ span {
   font-weight: bold;
 }
 
-
-.candys{
+.candys {
   display: flex;
   gap: 20px;
 }
 
-.candy{
+.candy {
   background: #f5f5f5;
   overflow: hidden;
   text-align: center;
   width: 200px;
 }
 
-.candys .candy{
+.candys .candy {
   justify-content: space-between;
+}
+
+.abc {
+  width: 391px;
+  height: 215px;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
 }
 
 @media only screen and (max-width: 1024px) {
