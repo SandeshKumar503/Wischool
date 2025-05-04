@@ -76,6 +76,7 @@
 
 span {
   color: #00c897;
+  font-weight: 600;
 }
 
 .cta {
@@ -333,7 +334,63 @@ span {
   box-shadow: 0px 0px 9px 0px #CBCBCB40;
 }
 
+.hemo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  border-radius: 100px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
+.hemotext h1 {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Arial;
+  line-height: 70px;
+  letter-spacing: 0%;
+}
+
+.hemoimage {
+  display: flex;
+  top: 9px;
+  left: 170px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 40px;
+}
+
+.book{
+  font-weight: 600;
+  padding-left: 50px;
+}
+
+.bat{
+  position: absolute;
+  background-color: #ffffff;
+  align-items: center;
+  font-weight: 600;
+  top: 11000;
+  right: 65px;
+  color: black;
+}
+
+.pen{
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  flex-wrap: wrap;
+}
+
+.review{
+  padding-top: 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
 
 @media only screen and (max-width: 1024px) {
   .instructors-badge {
