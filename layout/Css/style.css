@@ -5,8 +5,8 @@
 
 body {
   margin-top: 10px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
   font-family: "Arial";
   background-color: #fff;
   color: #333;
@@ -159,7 +159,6 @@ span {
 .badge {
   align-items: center;
   height: 100px;
-  width: 110px;
   top: 350px;
   left: 1130px;
   font-weight: 600;
@@ -167,7 +166,6 @@ span {
   right: 65px;
   color: black;
 }
-
 
 .ft {
   margin-top: 10px;
@@ -207,10 +205,11 @@ span {
   gap: 48px;
   align-items: center;
   margin-bottom: 20px;
-  
 }
 
 .content {
+  display: flex;
+  justify-content: space-between;
   background: #fff;
   flex-wrap: wrap;
 }
@@ -254,6 +253,23 @@ span {
 .card p {
   padding: 10px;
   font-weight: bold;
+}
+
+
+.candys{
+  display: flex;
+  gap: 20px;
+}
+
+.candy{
+  background: #f5f5f5;
+  overflow: hidden;
+  text-align: center;
+  width: 200px;
+}
+
+.candys .candy{
+  justify-content: space-between;
 }
 
 @media only screen and (max-width: 1024px) {
