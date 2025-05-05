@@ -265,7 +265,7 @@ span {
 .card {
   overflow: hidden;
   text-align: center;
-  width: 200px;
+  width: 23.5%;
 }
 
 .card .cards {
@@ -290,6 +290,7 @@ span {
   text-transform: capitalize;
   font-family: Arial;
   font-size: large;
+  font-weight: 600;
   padding-top: 10px;
 }
 
@@ -360,9 +361,12 @@ span {
 }
 
 .hemo-image img {
-  width: 330px;
-  border-radius: 10px;
-  padding-left: 1px;
+  top: 9px;
+  left: 170px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 40px;
 }
 
 .hemoimage {
@@ -371,11 +375,15 @@ span {
 
 .job-cap {
   position: absolute;
-  left: 400px;
-  background-color: #eafaf1;
-  padding: 10px 15px;
-  border-radius: 8px;
-  font-size: 14px;
+  align-items: center;
+  height: 100px;
+  top: 370px;
+  background-color: white;
+  left: 1130px;
+  font-weight: 500;
+  bottom: 10px;
+  right: 65px;
+  color: black;
 }
 
 .jub{
@@ -487,7 +495,7 @@ text-align: center;
 }
 
 .cap {
-  background: #f9f9f9;
+  background: #ffffff;
   padding: 20px;
   border-radius: 12px;
   width: 250px;
