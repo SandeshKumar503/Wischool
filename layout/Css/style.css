@@ -75,7 +75,7 @@
 }
 
 span {
-  color: #00c897;
+  color: #1ba94c;
   font-weight: 600;
 }
 
@@ -369,12 +369,28 @@ span {
 
 .job-cap {
   position: absolute;
-  left: 200px;
+  left: 400px;
   background-color: #eafaf1;
   padding: 10px 15px;
   border-radius: 8px;
   font-size: 14px;
-  color: #1ba94c;
+}
+
+.jub{
+text-align: center;
+justify-content: space-between;
+}
+
+.jub p{
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 700;
+  
+}
+
+.jub img{
+  height: auto;
+  width: 30px;
 }
 
 
@@ -425,6 +441,8 @@ span {
 }
 
 .reviews {
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
   margin-top: 60px;
 }
@@ -455,11 +473,6 @@ span {
   margin: 0 5px;
 }
 
-.review-heading {
-  margin: 30px 0 20px;
-  font-size: 18px;
-  color: #444;
-}
 
 .review-cards {
   display: flex;
