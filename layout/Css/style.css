@@ -334,7 +334,7 @@ span {
 }
 
 .crd{
-  display: ;
+  display: flex ;
   flex-wrap: wrap;
   position: absolute;
   color: white;
@@ -343,35 +343,47 @@ span {
   box-shadow: 0px 0px 9px 0px #CBCBCB40;
 }
 
-.hemo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between
-    padding: 40px 0;
-    
-} 
 
+.cart {
+  position: relative;
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
 
-.hemo-content {
+.student-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.label {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #fff;
+  color: #00cc66;
+  padding: 8px 10px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
-  font-family: Arial;
-  margin-left: 80px;
-  margin-right: 80px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  font-size: 12px;
 }
 
-.hemo-image img {
-  top: 9px;
-  left: 170px;
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
-  border-bottom-right-radius: 100px;
-  border-bottom-left-radius: 40px;
+.label .icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
 }
 
-.hemoimage {
-    position: fixed;
+.label .tex{
+  color: #00cc66;
+  line-height: 1.2;
+  font-size: 13px;
 }
+
 
 .job-cap {
   position: absolute;
@@ -518,6 +530,60 @@ text-align: center;
   color: #555;
 }
 
+.cost{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.cost-image img {
+  max-width: 350px;
+  border-radius: 10px;
+}
+
+.cost text {
+  max-width: 500px;
+}
+
+.cost text h1 {
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.cost text p {
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.green {
+  background-color: #00cc66;
+  color: white;
+}
+
+.outline {
+  background-color: transparent;
+  border: 2px solid #00cc66;
+  color: #00cc66;
+}
+
+
+
 .place,
 .regis{
   margin-left: 10px;
@@ -541,12 +607,63 @@ text-align: center;
   color: #09b451;
 }
 
-footer{
-  width: 132;
-  height: 41;
-  top: 120.07px;
-  left: 100px;  
+footer {
+  background-color: #000;
+  padding: 40px 20px;
+  font-family: Arial;
 }
+
+.contain{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.section h1{
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.section p{
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.socials a {
+  margin-right: 10px;
+  color: #00cc66;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.subscribe-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+}
+
+.subscribe-bar input {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+}
+
 
 
 
