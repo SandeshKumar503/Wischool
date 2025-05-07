@@ -12,6 +12,7 @@
   color: #333;
 }
 
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -57,6 +58,7 @@
   color: #fff;
 }
 
+/* Student frame */
 .hero {
   display: flex;
   justify-content: space-between;
@@ -157,18 +159,6 @@ span {
   color: #2c3e50;
 }
 
-.badge {
-  text-align: center;
-  align-items: center;
-  height: 90px;
-  width: 90px;
-  top: 370px;
-  left: 1130px;
-  font-weight: 500;
-  bottom: 10px;
-  right: 65px;
-  color: black;
-}
 
 .ft {
   margin-top: 10px;
@@ -191,6 +181,20 @@ span {
   border-radius: 30px;
 }
 
+.badge {
+  text-align: center;
+  align-items: center;
+  height: 90px;
+  width: 90px;
+  top: 370px;
+  left: 1130px;
+  font-weight: 500;
+  bottom: 10px;
+  right: 65px;
+  color: black;
+}
+
+/* 4 box */
 .bx {
   display: flex;
   justify-content: space-between;
@@ -214,6 +218,7 @@ span {
   padding-left: 10px;
 }
 
+/* 4 card */
 .content {
   display: flex;
   justify-content: space-between;
@@ -311,6 +316,7 @@ span {
   font-size: x-large;
 }
 
+/* 3 card */
 .candys {
   display: flex;
   flex: 1;
@@ -319,7 +325,6 @@ span {
   flex-wrap: wrap;
   margin-left: 65px;
   margin-right: 65px;
-
 }
 
 .candy {
@@ -329,6 +334,7 @@ span {
 
 }
 
+/* 3 card 2 */
 .cands {
   display: flex;
   flex: auto;
@@ -349,6 +355,7 @@ span {
   box-shadow: 0px 0px 9px 0px #CBCBCB40;
 }
 
+/* Job frame */
 .cafe{
     display: flex;
     flex-wrap: wrap;
@@ -417,7 +424,6 @@ span {
   text-align: center;
 }
 
-.buj {}
 
 .jub p {
   font-size: 20px;
@@ -521,7 +527,7 @@ span {
 
 .cap {
   background: #ffffff;
-  padding: 20px;
+  padding-top: 20px;
   border-radius: 12px;
   width: 250px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
@@ -543,16 +549,19 @@ span {
   color: #555;
 }
 
+/* Helpline frame */
 .cost {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 40px;
+  padding-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .cost-image img {
-  max-width: 350px;
+  max-width: 100px;
   border-radius: 10px;
 }
 
@@ -620,6 +629,7 @@ span {
   color: #09b451;
 }
 
+/* <----------footer---------> */
 footer {
   background-color: #000;
   padding: 40px 20px;
@@ -699,17 +709,6 @@ footer {
   background-color: #00cc66;
   color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
